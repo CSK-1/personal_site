@@ -21,7 +21,7 @@ body {
 main {
     display: block;
     background-color: #fbe5ff;
-    font-size: 15px;
+    font-size: 18px;
     min-height: 60vh;
     padding: 50px 24px 96px;
     margin: 30px 50px;
@@ -46,9 +46,38 @@ nav {
     right: 0;
 }
 
+.quote {
+    font-family: cursive;
+    font-size: 25px;
+}
+
 .image {
     height: 350px;
     width: 350px;
     float: right;
     margin: 10px 0 10px 10px;
+}
+
+.aboutImages {
+    height: auto;
+    width: 125px;
+    float: left;
+    margin: 0px 10px 10px 10px;
+    object-fit: contain;
+}
+
+.aboutSection {
+    display: flex;
+    padding: 10px;
+}
+
+.aboutDiv {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+}
+
+.aboutH3 {
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
