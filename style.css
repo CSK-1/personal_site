@@ -26,6 +26,7 @@ main {
     padding: 50px 24px 96px;
     margin: 30px 50px;
     border: 2px solid black;
+    min-width: 350px;
 }
 
 .active {
@@ -43,4 +44,11 @@ nav {
     padding: 15px;
     left: 0;
     right: 0;
+}
+
+.image {
+    height: 350px;
+    width: 350px;
+    float: right;
+    margin: 10px 0 10px 10px;
 }
