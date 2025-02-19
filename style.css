@@ -42,6 +42,11 @@ html {
     color: white;
 }
 
+.contactLink:hover {
+    background-color: #5f005f;
+    color: white;
+}
+
 .active {
     color: white;
     text-decoration: underline;
@@ -116,4 +121,15 @@ nav {
 .aboutH3 {
     margin-top: 0px;
     margin-bottom: 0px;
+}
+
+.contactForm {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 15px;
+    padding: 20px;
+    max-width: 600px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px grey;
 }
