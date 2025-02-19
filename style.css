@@ -133,3 +133,15 @@ nav {
     border-radius: 10px;
     box-shadow: 0px 4px 6px grey;
 }
+
+.successBody {
+    background-color: #0c3b83;
+    color: #e9fffe;
+    display: block;
+    font-size: 18px;
+    min-height: 60vh;
+    padding: 50px 24px 96px;
+    margin: 30px 50px;
+    border: 2px solid black;
+    min-width: 350px;
+}
