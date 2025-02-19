@@ -145,3 +145,24 @@ nav {
     border: 2px solid black;
     min-width: 350px;
 }
+
+@media (max-width: 800px){
+    html{
+        background: #5f005f;
+    }
+    main{
+        margin: 5px;
+        padding: 5px;
+    }
+    nav{
+        margin: 5px;
+        padding: 5px;
+        min-width: 350px;
+    }
+    #links{
+        font-size: 1em;
+    }
+    #logo{
+        font-size: 1em;
+    }
+}
